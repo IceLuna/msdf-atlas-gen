@@ -18,8 +18,12 @@
 *.suo
 *.VC.opendb
 *.VC.db
+*.vcxproj
+*.vcxproj.filters
 /bin/*.lib
 /bin/msdf-atlas-gen
 output.png
 out/
 /cmake-gen.bat
+/bin/
+/bin-int/
