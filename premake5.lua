@@ -37,12 +37,12 @@ project "MSDF-Atlas"
 
     filter { "system:windows", "configurations:Debug" }
         runtime "Debug"
-        optimize "Full"
+        optimize "Speed"
 
     filter { "system:windows", "configurations:Release" }
         runtime "Release"
-        optimize "Full"
+        optimize "Speed"
 
     filter { "system:windows", "configurations:Dist" }
         runtime "Release"
-        optimize "Full"
+        optimize "Speed"
